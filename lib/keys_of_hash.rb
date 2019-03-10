@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     new_array = []
     collect {|key, value|
       if arguments.include?(value)
